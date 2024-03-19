@@ -1,14 +1,6 @@
 import math
 
-
-class SquareGenerator:
-    def e_squares(self, start, end):
-        if start > end:
-            raise Exception("The end of the range cannot be less than the start.")
-
-        squares = [number * number for number in range(start, end)]
-        return squares
-
+from square_generator import SquareGenerator
 
 starting_num = int(input("Enter the starting number: "))
 ending_num = int(input("Enter the ending number: ")) + 1
