@@ -1,6 +1,6 @@
 import math
 
-from square_generator import SquareGenerator
+from square_generator.square_generator import SquareGenerator
 
 starting_num = int(input("Enter the starting number: "))
 ending_num = int(input("Enter the ending number: ")) + 1
