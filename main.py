@@ -1,3 +1,4 @@
-# task1
-squares = [number * number for number in range(1, 11)]
-print(squares)
+# task2
+def e_squares(start, end):
+    squares = [number * number for number in range(start, end)]
+    return squares
